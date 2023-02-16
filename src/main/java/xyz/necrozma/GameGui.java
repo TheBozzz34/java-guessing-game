@@ -20,6 +20,7 @@ public class GameGui {
         this.game = game;
 
         frame = new JFrame("Guess the Number Game");
+        frame.setSize(600, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         info = new JLabel("You have " + game.getAllowedGuesses() + " guesses remaining.");
@@ -51,6 +52,7 @@ public class GameGui {
                         button.setEnabled(false);
                     } else {
                         info.setText("Sorry, that's not the correct number. You have " + (game.getAllowedGuesses() - game.getGuessCount()) + " guesses remaining.");
+                        frame.pack();
                     }
                 } catch (NumberFormatException err) {
                     info.setText("Please enter a valid number.");
