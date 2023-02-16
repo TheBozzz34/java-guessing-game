@@ -7,7 +7,6 @@ public class Main {
     private static Logger logger;
 
     public static void main(String[] args) {
-        boolean debug = false;
         if (args.length > 0 && args[0].equals("-debug")) {
             Configuration.debug = true;
         }
