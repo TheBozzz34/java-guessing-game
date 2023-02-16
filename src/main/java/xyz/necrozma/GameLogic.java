@@ -1,8 +1,13 @@
 package xyz.necrozma;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Random;
 
 public class GameLogic {
+
+    private static Logger logger = LoggerFactory.getLogger(GameLogic.class);
     private int correctAnswer;
     private int allowedGuesses;
     private int[] guesses;
@@ -10,6 +15,7 @@ public class GameLogic {
     public GameLogic(int maxGuesses) {
         Random random = new Random();
         correctAnswer = random.nextInt(100) + 1;
+        logger.debug("Correct Answer: " + correctAnswer);
         allowedGuesses = maxGuesses;
         guesses = new int[allowedGuesses];
     }
