@@ -15,9 +15,12 @@ public class GameLogic {
     public GameLogic(int maxGuesses) {
         Random random = new Random();
         correctAnswer = random.nextInt(100) + 1;
-        logger.debug("Correct Answer: " + correctAnswer);
         allowedGuesses = maxGuesses;
         guesses = new int[allowedGuesses];
+
+        if (Configuration.debug) {
+            logger.debug("Correct Answer: " + correctAnswer);
+        }
     }
 
     public int getCorrectAnswer() {

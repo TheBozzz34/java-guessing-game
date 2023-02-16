@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="error handling">
+    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="log correct answer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/necrozma/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/necrozma/GameGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/necrozma/GameGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/necrozma/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/necrozma/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/necrozma/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/necrozma/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676509412419</updated>
-      <workItem from="1676509414245" duration="6761000" />
+      <workItem from="1676509414245" duration="7461000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676514813203</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676516125333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="log correct answer">
+      <created>1676516320041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676516320041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +121,7 @@
     <MESSAGE value="mega refractor" />
     <MESSAGE value="optomize imports" />
     <MESSAGE value="error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="error handling" />
+    <MESSAGE value="log correct answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="log correct answer" />
   </component>
 </project>

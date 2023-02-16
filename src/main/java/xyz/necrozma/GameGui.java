@@ -58,7 +58,9 @@ public class GameGui {
                     info.setText("Please enter a valid number.");
                 }
 
-                logger.debug("Button Clicked!");
+                if (Configuration.debug) {
+                    logger.debug("Button Clicked!");
+                }
             }
         });
 
