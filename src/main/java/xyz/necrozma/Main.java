@@ -18,7 +18,7 @@ public class Main {
             logger.debug("Debug logging enabled! Now loading game components...");
         }
         try {
-            GameLogic gameLogic = new GameLogic(10);
+            GameLogic gameLogic = new GameLogic(Configuration.allowedGuesses);
             GameGui gameGui = new GameGui(gameLogic);
         } catch (Exception e) {
             logger.warn("Game loading failed!\n" + e.getMessage());

@@ -14,7 +14,7 @@ public class GameLogic {
 
     public GameLogic(int maxGuesses) {
         Random random = new Random();
-        correctAnswer = random.nextInt(100) + 1;
+        correctAnswer = random.nextInt(Configuration.maxAnswer) + 1;
         allowedGuesses = maxGuesses;
         guesses = new int[allowedGuesses];
 

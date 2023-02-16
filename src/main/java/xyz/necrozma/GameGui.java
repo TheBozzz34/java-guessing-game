@@ -20,7 +20,6 @@ public class GameGui {
         this.game = game;
 
         frame = new JFrame("Guess the Number Game");
-        frame.setSize(600, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         info = new JLabel("You have " + game.getAllowedGuesses() + " guesses remaining.");
@@ -39,7 +38,7 @@ public class GameGui {
 
                 try {
                     int guess = Integer.parseInt(inputFieldValue);
-                    if (guess < 1 || guess > 100) {
+                    if (guess < 1 || guess > Configuration.maxAnswer) {
                         info.setText("Please enter a number between 1 and 100.");
                         return;
                     }
