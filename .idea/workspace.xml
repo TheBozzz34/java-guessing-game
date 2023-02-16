@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="Allow changing the max guesses and max answer">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="+ readme.md">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/necrozma/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/necrozma/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5455f518-107a-41ff-ab4e-82e71cea71bd" />
+        <option name="url" value="https://github.com/TheBozzz34/java-guessing-game.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676509412419</updated>
-      <workItem from="1676509414245" duration="8552000" />
+      <workItem from="1676509414245" duration="9174000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676514813203</created>
@@ -122,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676517375736</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="+ readme.md">
+      <created>1676518085564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676518085564</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +155,7 @@
     <MESSAGE value="log correct answer" />
     <MESSAGE value="add config class&#10;debug logging can be toggled with -debug" />
     <MESSAGE value="Allow changing the max guesses and max answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allow changing the max guesses and max answer" />
+    <MESSAGE value="+ readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ readme.md" />
   </component>
 </project>
