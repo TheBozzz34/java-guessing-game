@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="+ readme.md">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef7d7114-5c54-491a-a697-59f51566d686" name="Changes" comment="+ travis integration">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676509412419</updated>
-      <workItem from="1676509414245" duration="9174000" />
+      <workItem from="1676509414245" duration="9239000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676514813203</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676518085564</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+ travis integration">
+      <created>1676518732764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676518732764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +162,7 @@
     <MESSAGE value="add config class&#10;debug logging can be toggled with -debug" />
     <MESSAGE value="Allow changing the max guesses and max answer" />
     <MESSAGE value="+ readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ readme.md" />
+    <MESSAGE value="+ travis integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ travis integration" />
   </component>
 </project>
