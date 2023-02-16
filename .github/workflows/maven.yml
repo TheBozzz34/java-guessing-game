@@ -8,11 +8,7 @@
 
 name: Java CI with Maven
 
-permissions: 
-  actions: write
-  checks: write
-  security-events: write
-  statuses: write
+permissions: write-all
   
 on:
   push:
