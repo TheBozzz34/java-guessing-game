@@ -7,9 +7,9 @@ import java.util.Random;
 
 public class GameLogic {
 
-    private static Logger logger = LoggerFactory.getLogger(GameLogic.class);
-    private int correctAnswer;
-    private int allowedGuesses;
+    private static final Logger logger = LoggerFactory.getLogger(GameLogic.class);
+    private final int correctAnswer;
+    private final int allowedGuesses;
     private int[] guesses;
 
     public GameLogic(int maxGuesses) {

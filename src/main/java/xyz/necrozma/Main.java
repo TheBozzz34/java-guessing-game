@@ -19,8 +19,10 @@ public class Main {
         try {
             GameLogic gameLogic = new GameLogic(Configuration.allowedGuesses);
             GameGui gameGui = new GameGui(gameLogic);
+            logger.debug("Loaded: 'GameGui.class', 'GameLogic.class', ''Configuration.class");
         } catch (Exception e) {
             logger.warn("Game loading failed!\n" + e.getMessage());
         }
     }
 }
+
